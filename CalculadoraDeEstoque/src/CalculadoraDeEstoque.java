@@ -3,15 +3,12 @@ public class CalculadoraDeEstoque {
     public static void main(String[] args) {
         
         double soma = 0;
-        int contador = 0;
-
-        // inicializando o contador
-        while (contador < 35) {
-            // atualização do contador
-            double valorDoLivro = 59.90;
-            soma += valorDoLivro;
-            contador ++;
+        
+        for (double  i = 0; i < 35; i ++) {
+            soma += 59.90;
         }
+
+
 
         System.out.println("O Total em estoque é " + soma);
 
