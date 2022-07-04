@@ -5,7 +5,7 @@ public class CalculadoraDeEstoque {
         double soma = 0;
         
         for (double  i = 0; i < 35; i ++) {
-            soma += 59.90;
+            soma += 58.90;
         }
 
 
