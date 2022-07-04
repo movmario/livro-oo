@@ -1,29 +1,23 @@
 public class CalculadoraDeEstoque {
-    
-    public static void main(String[] args) {
-        
-        double soma = 0;
-        
-        for (double  i = 0; i < 35; i ++) {
-            soma += 58.90;
-        }
 
+	public static void main(String[] args) {
 
+		double soma = 0;
 
-        System.out.println("O Total em estoque é " + soma);
+		for (double i = 0; i < 35; i++) {
+			soma += 58.90;
+		}
 
-        if (soma < 150) {
-            System.out.println("Seu estoque está muito baixo!");
-            } else if (soma >= 2000) {
-                System.out.println("Seu estoque está muito alto");
-            } else {
-                System.out.println("Seu estoque está bom");
-            } 
+		System.out.println("O Total em estoque é " + soma);
 
+		if (soma < 150) {
+			System.out.println("Seu estoque está muito baixo!");
+		} else if (soma >= 2000) {
+			System.out.println("Seu estoque está muito alto");
+		} else {
+			System.out.println("Seu estoque está bom");
+		}
 
-
-    }
-
-
+	}
 
 }
